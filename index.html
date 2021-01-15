@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chope-Sneakers</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="body">
+    <header>
+        <nav class="nav">
+            <a href="#" class="contactlink" onclick="showcontact()">contact</a>
+            <a href="#" class="homelink" onclick="showhome()">home</a>
+            <div class="svg">
+                <a href=""><img class="cart" src="assets/svg/cart.svg" alt="logo-cart"></a>
+                <a href=""><img class="account" src="assets/svg/account.svg" alt="logo-account"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="homelogo">
+                <div class="divblack">
+                    <div>
+                        <h1 class="h1"><a href="#product">chope-sneakers</a></h1>
+                        <h2 class="h2">la sneaker en noir et blanc</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="main" class="all-products">
+                <p id="product" class="our-products">nos produits</p>
+                <div class="vaporwaffle"> <a href="#" onclick="showsneaker1()"><img
+                            src="assets/img/sacaivaporwaffle/sacai.jpg" alt="vaporwaffle"></a></div>
+                <div class="blazersacai"> <a href="#" onclick="showsneaker2()"><img
+                            src="assets/img/sacaiblazer/blazer.jpg" alt="blazer"></a>
+                </div>
+                <div class="jordanconcord"> <a href="#" onclick="showsneaker3()"><img
+                            src="assets/img/concord/jordanconcord1.jpg" alt="jordan-11-concord"></a></div>
+                <div class="jordanone"> <a href="#" onclick="showsneaker4()"><img src="assets/img/jordan1/jordan1.jpg"
+                            alt="jordan-one"></a>
+                </div>
+                <div class="instapump"> <a href="#" onclick="showsneaker5()"><img
+                            src="assets/img/instapump/instapump1.jpg" alt="instapump"></a>
+                </div>
+                <div class="airmax90"> <a href="#" onclick="showsneaker6()"><img src="assets/img/airmax90/airmax90.jpg"
+                            alt="air-max-90"></a>
+                </div>
+                <div class="conversecdg"> <a href="#" onclick="showsneaker7()"><img
+                            src="assets/img/conversecdg/conversecdg1.jpg" alt="converse-cdg"></a></div>
+                <div class="converseow"> <a href="#" onclick="showsneaker8()"><img
+                            src="assets/img/converseoffwhite/converseow1.jpg" alt="converse-off-white"></a></div>
+                <div class="airmaxmoreuptempo"> <a href="#" onclick="showsneaker9()"><img
+                            src="assets/img/airmaxuptempo/airmaxmoreuptempo1.jpg"
+                            alt="air-max-more-uptempo-supreme"></a></div>
+
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="divh2-2">
+                <h2 class="h2-2"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+            </div>
+
+            <div class="divcontact">
+                <div class="divh3">
+                    <h3 class="h3">nous contacter</h3>
+                </div>
+                <p>Afin de nous améliorer nous avons besoin de vous, besoin de vos retour.</p>
+                <p>C'est pourquoi nous mettons une <span><a href="mailto:chope.sneakers@gmail.com">adresse
+                            mail</a></span> ainsi qu'un numéro de <span><a href="tel:0605040302">téléphone</a></span>.
+                </p>
+                <p>Mais c'etait pas assez pour nous alors nous avons créé un compte <span><a
+                            href="https://www.instagram.com/chope_sneakers/?hl=fr" target="_blank">instagram</a></span>
+                    pour mettre <p>en avant les prduit que l'on vend,
+                        vous pouvez aussi nous contacter par ce moyen</p>
+                    <div class="p2">
+                        <p>Vous pouvez aussi trouver les liens vers les comptes instagram de nos influenceurs:</p>
+                        <p><span><a href="https://www.instagram.com/thesneakerbalcony/"
+                                    target="_blank">thesneakerbalcony</a></span></p>
+                        <p><span><a href="https://www.instagram.com/pattajunky/" target="_blank">pattajunky</a></span>
+                        </p>
+                        <p><span><a href="https://www.instagram.com/monsieur_franck/"
+                                    target="_blank">monsieur_franck</a></span>
+                        </p>
+                    </div>
+                    <h3 class="h3-4">Notre boutique :</h3>
+                    <div class="divmap">
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.37793525959!2d2.3003806159294617!3d49.891707535346924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e78446349604c5%3A0x372bbea0c15345a1!2sHype%20Amiens!5e0!3m2!1sfr!2sfr!4v1610615908752!5m2!1sfr!2sfr"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            aria-hidden="false" tabindex="0"></iframe></div>
+                    <h3 class="h3-2">nous envoyer un message</h3>
+
+                    <form class="form" action="get">
+                        <label for="name">de la part de :</label>
+                        <input class="name" type="text" required placeholder="pseudo">
+
+                        <label for="name"></label>
+                        <input class="mail" type="mail" required placeholder="votre.adresse@mail.com">
+
+                        <label for="object">objet :</label>
+                        <input class="object" type="text" required placeholder="objet">
+
+                        <label for="msg">votre message :</label>
+                        <textarea name="msg" class="msg" cols="30" rows="10" placeholder="votre message ici"></textarea>
+
+                        <label for="submit"></label>
+                        <input class="submit" type="submit">
+                    </form>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="divh2-3">
+                <h2 class="h2-3"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+            </div>
+            <div class="divh3-2">
+                <h3 class="h3-3">qui sommes-nous ?</h3>
+            </div>
+            <p>
+                C'est surement la question que avez pour arriver sur cette page. </p>
+            <p> Nous sommes des passionnés avant tout, des sneakers addict, lover ou encore head. </p>
+            <p> La boutique a été ouverte le 23 Janvier 2018 et il nous manqués un </p>
+            <p> site de vente fais pour nous. Alors nous l'avons fais pour vous depuis </p>
+            <p> c'est un succès pour le monde de la sneakers. </p>
+        </section>
+
+        <section class="sneaker1">
+            <div class="divsneaker1">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3> nike Pegasus Vaporwaffle sacai</h3>
+                </div>
+                <img class="photosneaker1-1" src="assets/img/sacaivaporwaffle/profil.jfif" alt="photo-profil">
+                <img class="photosneaker1-2" src="assets/img/sacaivaporwaffle/profilquart.jfif"
+                    alt="photo-trois-quarts">
+                <img class="photosneaker1-3" src="assets/img/sacaivaporwaffle/back.jfif" alt="photo-arrière">
+                <img class="photosneaker1-4" src="assets/img/sacaivaporwaffle/semelle.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker1-1">Ce nouveau design hybride, qui s’inspire des Pegasus Vaporfly et des Pegasus
+                    Vaporwaffle,
+                    est pourvu d’une empeigne en mesh noir et de superpositions en suède et en cuir
+                    assorties. L’ensemble est rehaussé par de nombreux accents blancs que l'on retrouve
+                    au niveau des éléments doublés comme le swoosh latéral, les lacets et la semelle incurvée.
+                    Des co-brandings apposés sur la languette et le talon apportent la touche finale.</p>
+
+                <p class="descsneaker1-2">Cette nouvelle sacai x Nike Vaporwaffle Black White devrait sortir le 6
+                    novembre
+                    sur Nike.com et chez certains détaillants sélectionnés, au prix de 180€. Stay tuned!</p>*
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker2">
+            <div class="divsneaker2">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3> nike blazer sacai</h3>
+                </div>
+                <img class="photosneaker2-1" src="assets/img/sacaiblazer/profil.jfif" alt="photo-profil">
+                <img class="photosneaker2-2" src="assets/img/sacaiblazer/profilquart.jfif" alt="photo-trois-quarts">
+                <img class="photosneaker2-3" src="assets/img/sacaiblazer/back.jfif" alt="photo-arrière">
+                <img class="photosneaker2-4" src="assets/img/sacaiblazer/semelle.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker2-1">Après avoir présenté un coloris White Grey, la marque japonaise a confectionné
+                    une seconde édition dans les mêmes teintes. La nouvelle venue reprend donc les codes de son
+                    homologue et affiche une combinaison intemporelle de noir, de gris et de blanc. On remarque
+                    également une multitude d’éléments doublés, à l’instar de la languette, du swoosh latéral ou encore
+                    de la semelle intermédiaire. Le design hybride est finalement complété par des lacets bicolores,
+                    ainsi qu’un co-branding “Nike Sacai” apposé sur les talons.</p>
+
+                <p class="descsneaker2-2">Bien que la date de sortie des Sacai x Nike Blazer Mid Black Grey White ne
+                    soit pas encore définie, elle devrait arriver sur Nike.com durant la saison automnale 2019, à un
+                    prix oscillant autour des 140€. Stay tuned!</p>*
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker3">
+            <div class="divsneaker3">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3> jordan 11 concord</h3>
+                </div>
+                <img class="photosneaker3-1" src="assets/img/concord/profil.jfif" alt="photo-profil">
+                <img class="photosneaker3-2" src="assets/img/concord/profilquart.jfif" alt="photo-trois-quarts">
+                <img class="photosneaker3-3" src="assets/img/concord/back.jfif" alt="photo-arrière">
+                <img class="photosneaker3-4" src="assets/img/concord/top.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker3-1">La silhouette est dotée d'un revêtement en mesh blanc couplé à du cuir verni
+                    noir, le tout reposant sur une semelle intermédiaire blanche couplée à une semelle extérieure
+                    translucide icy. Cette retro aura le numéro "45" brodé sur les talons, au lieu du "23" traditionnel,
+                    numéro que portait Michael Jordan lorsqu'il est retourné sur les parquets en 1995, après sa retraite
+                    anticipé.Pour cette nouvelle réédition, la marque a voulu être le plus fidèle possible à
+                    l'originale, en reprenant la même découpe du cuir verni, les détails Nike Air sur la semelle
+                    intérieure, la box OG et bien sûr le #45 au talon.</p>
+
+                <p class="descsneaker3-2">La Air Jordan 11 Concord sortira officiellement le 8 décembre 2018 au prix de
+                    200€
+                    Des tailles GS, kids et bébés seront également disponibles pour le bonheur de toute la famille.</p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker4">
+            <div class="divsneaker4">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3>Jordan one retro</h3>
+                </div>
+                <img class="photosneaker4-1" src="assets/img/jordan1/profil.jpg" alt="photo-profil">
+                <img class="photosneaker4-2" src="assets/img/jordan1/profilequart.jpg" alt="photo-trois-quarts">
+                <img class="photosneaker4-3" src="assets/img/jordan1/profile2.jpg" alt="photo-arrière">
+                <img class="photosneaker4-4" src="assets/img/jordan1/back.jpg" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker4-1">Ajoutez un morceau d'histoire à votre collection de sneakers avec une paire de
+                    Nike Air Jordan 1 mid blanc noir . Lancée en 1985, l'Air Jordan 1 a révolutionné le basketball - et
+                    enfreint les règles de la ligue par ses coloris audacieux et dynamiques. Chaque fois que MJ a porté
+                    la version noire et rouge "Banned" de l'Air Jordan 1, la ligue lui a infligé une amende de 5 000 $,
+                    créant une controverse et mettant la basket en lumière. C'est chaussé de l'Air Jordan 1 que le
+                    célèbre basketteur écrit sa légende avec notamment un record de 63 points contre les Celtics de
+                    Boston dans le premier tour des Playoffs de 1986.</p>
+
+                <p class="descsneaker4-2">La Air Jordan 1 mid sortira officiellement le 17 mars 2018 au prix de
+                    140€</p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker5">
+            <div class="divsneaker5">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3>instapump fury boost deal</h3>
+                </div>
+                <img class="photosneaker5-1" src="assets/img/instapump/timthumb." alt="photo-profil">
+                <img class="photosneaker5-2" src="assets/img/instapump/timthumb(1)." alt="photo-trois-quarts">
+                <img class="photosneaker5-3" src="assets/img/instapump/timthumb(2)." alt="photo-arrière">
+                <img class="photosneaker5-4" src="assets/img/instapump/timthumb(4)." alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker5-1">La nouvelle venue s’inspire du Feng Shui, une discipline chinoise ancestrale
+                    visant à harmoniser les flux d’énergie d’un environnement afin de favoriser la santé, le bien-être
+                    et la prospérité de ses habitants. La boutique DEAL, qui n’est pas étrangère aux collaborations avec
+                    Reebok, avait déjà présenté une Instapump Fury sur le thème Yin & Yang en 2017.</p>
+
+                <p class="descsneaker5-2">La sortie de la Deal x Reebok InstaPump Fury "Feng Shui" est prévue le 9 juin
+                    dans les boutiques DEAL et WZK. Elle serait limitée à 1000 exemplaires dans le monde et serait vendu
+                    à 400€.</p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker6">
+            <div class="divsneaker6">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3>air max 90 off white</h3>
+                </div>
+                <img class="photosneaker6-1" src="assets/img/airmax90/profil.jfif" alt="photo-profil">
+                <img class="photosneaker6-2" src="assets/img/airmax90/profilquart.jfif" alt="photo-trois-quarts">
+                <img class="photosneaker6-3" src="assets/img/airmax90/zoom.jfif" alt="photo-arrière">
+                <img class="photosneaker6-4" src="assets/img/airmax90/top.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker6-1">La silhouette reprend les lignes de la Off-White x Nike Air Max 90 The Ten
+                    mais affiche un upper noir contrasté par un swoosh blanc. On retrouve les différents marqueurs
+                    signatures d'Abloh comme le style déstructuré de la languette, le petit rectangle orange, les
+                    inscriptions "Shoelaces" sur les lacets ou le branding du côté intérieur.</p>
+
+                <p class="descsneaker6-2">La sortie des Off-White x Nike Air Max 90 Black Cone est prévue le 7 février
+                    2019 à 10h à 250€.</p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker7">
+            <div class="divsneaker7">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3>converse comme des garçons</h3>
+                </div>
+                <img class="photosneaker7-1" src="assets/img/conversecdg/profilblack.jfif" alt="photo-profil">
+                <img class="photosneaker7-2" src="assets/img/conversecdg/profilquartblack.jfif"
+                    alt="photo-trois-quarts">
+                <img class="photosneaker7-3" src="assets/img/conversecdg/profilwhite.jfif" alt="photo-arrière">
+                <img class="photosneaker7-4" src="assets/img/conversecdg/profilquartwhite.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker7-1">Le classique modèle en toile a été choisi par le label japonais qui l'a
+                    décliné dans deux coloris intemporels: blanc et noir, en version low et high. En résulte une
+                    silhouette minimaliste qui met en évidence uniquement le logo CDG coeur rouge placé sur les côtés
+                    extérieurs, logo créé par l'artiste new-yorkais Filip Pagowski et Rei Kawakubo. Une bande
+                    contrastante noire ou blanche selon les coloris apporte la touche finale. On retrouve aussi le logo
+                    Play CDG inscrit sur les semelles intérieures.</p>
+
+                <p class="descsneaker7-2">La collection CDG x Converse Chuck 70 Logo est déjà disponible en édition
+                    limitée pour certains membres. Le prix a été fixé à 125€.</p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker8">
+            <div class="divsneaker8">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3>converse off white vulcanised</h3>
+                </div>
+                <img class="photosneaker8-1" src="assets/img/converseoffwhite/profil.jfif" alt="photo-profil">
+                <img class="photosneaker8-2" src="assets/img/converseoffwhite/profilqurt.jfif" alt="photo-trois-quarts">
+                <img class="photosneaker8-3" src="assets/img/converseoffwhite/back.jfif" alt="photo-arrière">
+                <img class="photosneaker8-4" src="assets/img/converseoffwhite/top.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker8-1">Cette Converse Chuck Taylor All-Star imaginée par Virgil Abloh affiche un
+                    revêtement blanc jouant sur la transparence dans un style épuré, agrémenté des différents brandings
+                    Off-White à l'image de l'inscription "Vulcanized" sur la semelle translucide icy , "Shoelaces" sur
+                    les lacets, ou bien le petit rectangle orange et l'inscription Off-White noire latérale.</p>
+
+                <p class="descsneaker8-2">Les Off-White x Converse Chuck Taylor All Star "The Ten" sera disponible le 8
+                    mai pour les inscrits puis le 12 mai au prix de 130€.</p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+
+        <section class="sneaker9">
+            <div class="divsneaker9">
+                <div class="divh2-5">
+                    <h2 class="h2-5"><a href="#" onclick="showhome()">chope-sneakers</a></h2>
+                </div>
+                <div class="divh3-5">
+                    <h3>air max more Uptempo supreme</h3>
+                </div>
+                <img class="photosneaker9-1" src="assets/img/airmaxuptempo/profil.jpeg" alt="photo-profil">
+                <img class="photosneaker9-2" src="assets/img/airmaxuptempo/profil.jpg"
+                    alt="photo-trois-quarts">
+                <img class="photosneaker9-3" src="assets/img/airmaxuptempo/profilquart.jfif" alt="photo-arrière">
+                <img class="photosneaker9-4" src="assets/img/airmaxuptempo/wing.jfif" alt="photo-semelle">
+            </div>
+            <div class="description1">
+                <p class="descsneaker9-1">Le modèle porté par la légende Scottie Pippen dans les années 90 a été
+                    revisité dans une version quasi Triple Black, alliant du nubuck et du mesh. Les empiècements en cuir
+                    noir composent le branding "Supreme" qui remplace le "Air" traditionnel. Les swoosh blancs apportent
+                    du contraste à l'ensemble. La nuit tombée, le Supreme oversize reste visible grâce à du 3M
+                    réfléchissant qui entoure les lettres.</p>
+
+                <p class="descsneaker9-2">La sortie des Nike Air More Uptempo Black x Supreme est prévue le jeudi 27
+                    avril au prix de 180€, sûrement à midi (heure française) car les sorties Supreme se font à
+                    cette heure-ci. </p>
+                <button class="btncommander">commander</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer footer2">
+            <a class="insta" href="https://www.instagram.com/chope_sneakers/?hl=fr" target="_blank"><img
+                    src="assets/svg/instagram-brands (2).svg" alt=""></i></a>
+            <a class="top" href="#">vers le haut</a>
+            <a class="aboutlink" href="#" onclick="showabout()">à propos de nous</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
